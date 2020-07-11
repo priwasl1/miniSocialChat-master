@@ -24,6 +24,7 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Value>>> Get()
         {
+            //test
             return await _context.Values.ToListAsync(); 
         }
 
